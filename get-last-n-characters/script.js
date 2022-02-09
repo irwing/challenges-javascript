@@ -6,7 +6,7 @@ const getLastNCharacters = (str, n) => {
     }
 
     // validate length
-    if(n === null || n.length === 0 || isNaN(n)) {
+    if(typeof n !== 'number') {
         return "invalid input length";
     }
 
