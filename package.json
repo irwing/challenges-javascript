@@ -4,7 +4,8 @@
   "description": "Challenges JavaScripts from jschallenger.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "challenge:create": "sh ./_scripts/challenge-create.sh"
   },
   "repository": {
     "type": "git",
