@@ -6,7 +6,7 @@ const checkIfANumberIsWhole = (number) => {
     }
 
     // validate number integer
-    return (number % 1 !== 0) ? false : true;
+    return (number - Math.floor(number) === 0) ? true : false;
 }
 
 module.exports = checkIfANumberIsWhole;
